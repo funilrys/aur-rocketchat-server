@@ -15,7 +15,7 @@ backup=("etc/rocketchat/${pkgname}.conf")
 CFLAGS=-std=gnu11
 
 install="${pkgname}.install"
-source=("rocketchat-${pkgver}::https://releases.rocket.chat/${pkgver}/download"
+source=("rocketchat-${pkgver}.tar::https://releases.rocket.chat/${pkgver}/download"
     "rocketchat-server.install"
     "rocketchat-server.conf"
     "rocketchat-user.conf"
