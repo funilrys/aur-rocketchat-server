@@ -3,7 +3,7 @@
 
 pkgname=rocketchat-server
 pkgver=7.13.1
-pkgrel=1
+pkgrel=3
 pkgdesc="The Ultimate Open Source WebChat Platform"
 arch=("any")
 url="https://rocket.chat"
