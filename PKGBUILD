@@ -1,4 +1,4 @@
-# Maintainer: Nissar Chababy <funilrys at outlook dot com>
+# Maintainer: Nissar Chababy <contact at funilrys dot com>
 # Ex-Maintainer: Max Falk <gmdfalk at gmail dot com>
 
 pkgname=rocketchat-server
@@ -8,7 +8,7 @@ pkgdesc="The Ultimate Open Source WebChat Platform"
 arch=("any")
 url="https://rocket.chat"
 license=("MIT")
-depends=("npm" "nodejs-lts-iron" "mongodb" "graphicsmagick" "curl" "python3" "gcc")
+depends=("npm" "nodejs-lts-jod" "mongodb" "graphicsmagick" "curl" "python3" "gcc")
 makedepends=()
 optdepends=()
 backup=("etc/rocketchat/${pkgname}.conf")
